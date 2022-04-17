@@ -39,46 +39,59 @@
           41°F Boston, MA
       </div>
       <br />
-      <div class="row">
+       <div class="row">
         <div class="col-4" id="center1">
           <div class="row">
             <div class="col">
               <img
-                src="https://www.shareicon.net/data/512x512/2016/10/05/839044_cloud_512x512.png" class="suncloud"
-                alt="" width="200px"
+                src=""
+                id="icon"
+                alt="" 
+                width="150px"
               />
             </div>
             <div class="col">
             <span class="tempde">
-              <span class="newTemperature">29°C</span>
+              <span class="newTemperature">
+              </span>
               <span class="units">
-            </span>
+                  <a href="#" id="celsius-link" class="active">°C</a> | 
+                  <a href="#" id="fahrenheit-link">°F</a>
+              </span> 
+              </span>
             </span>
             </div>
             </div>
-        </div>      
-
-        <div class="col-7">
+        </div>               
+      
+      <div class="col-7">
           <div class="col-md-4> 
             <div class="row">
             <div class="col">
              <form id="search-form">
-                  <input type="text" placeholder="Enter a city" class="pa3" id="search-text-input">
-                  <input type="submit" value="Search" id="submit-button"/>
-             </form>               
+                    <input type="search" placeholder="Enter a city" 
+                    class="pa3" 
+                    id="city-input"
+                    autocomplete="off"
+                    />               
+                     <input type="submit" value="Search" id="submit-button"/>
+              </form>                  
             <div class="col">
             <button type="button" id="currentTemp" class="btn btn-success">Current</button>
             </div>
-             <br>
-              <p class="bennghe" id="bennghe123">
+            <div class="overview"> 
+              <p id="date">
+              </p>
+                 </div>
+                      <p class="bennghe" id="bennghe123">
               <div id="changeCity">
-                Bến Nghé, Ho Chi Minh City, Vietnam </p>
+                </p>
               </div>
           </div>
              <div class="row">
-                <div class="col" id="description">Partly cloudy
+                <div class="col" id="description">
                 </div>
-                <div class="col" id="windSpeed">Wind: 13 km/h
+                <div class="col" id="wind">
                 </div>
                 <div class="col">
                   <h4>  </h4>
@@ -86,7 +99,7 @@
               </div>
             <br>
      <img src="https://www.shareicon.net/data/128x128/2016/04/20/752829_drop_512x512.png" alt="" width="20px">
-      <p class="smalltext"> 18% / </p>
+      <p class="smalltext">  / </p>
       <p class="smalltext-2">
 0.00 in
       </p>  
@@ -162,8 +175,9 @@ Thu</p>
     </div>
 <br/>
 <br/>
+<br/>
 <footer>
-<div>
+<div class="footer2">
 <span>This project was coded by</span> <span class="author"> Cam Tien </span>and is <span class="gitHub"> <a href="https://github.com/nguyentien6296/my-app">
 open-sourced on GitHub </a></span>and <span class="netlify"> hosted on Netlify</span>
   </div>

@@ -1,3 +1,10 @@
+#date {
+  list-style: none;
+  text-align: right;
+  font-family: aktiv-grotesk, sans-serif;
+  color: rgb(221, 149, 16);
+  font-weight: 700;
+}
 .container {
   margin-top: 35px;
   border-style: groove;
@@ -10,8 +17,8 @@
 .currentTemp {
   transition: 0.3s;
 }
-.suncloud {
-  display: inline;
+#icon {
+  display: block;
 }
 .newTemperature {
   color: #ff7043;
@@ -19,7 +26,7 @@
   font-style: normal;
   font-size: 70px;
   font-weight: 400;
-  display: inline;
+  display: block;
 }
 .degree {
   color: #ffa726;
@@ -89,4 +96,14 @@ h4 {
 }
 a {
   text-decoration: none;
+}
+.footer2 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
 }
